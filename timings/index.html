@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaz Timings App</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+        
+        *{
+            font-family: "poppins", sans-serif;
+            
+        }
+    :root {
+            --primary: #27ae60;
+            --dark: #2c3e50;
+            --bg: #f4f7f6;
+        }
+
+        body {
+            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+            background: var(--bg);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            color: var(--dark);
+        }
+
+        .container {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.08);
+            width: 100%;
+            max-width: 350px;
+            margin-bottom: 20px;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            margin-top: 0;
+            color: var(--dark);
+            text-transform: uppercase;
+            border: 1px solid rgb(47, 0, 128);
+            border-radius: 10px;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            /* border-bottom: 2px solid var(--primary); */
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+
+        .date-sub {
+            text-align: center;
+            font-size: 1rem;
+            color: navy;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .time-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .time-row:last-child {
+            border-bottom: none;
+        }
+
+        .label {
+            font-weight: 700;
+            color: #0c4423;
+            text-transform: uppercase;
+        }
+
+        .time {
+            font-weight: 800;
+            font-size: 20px;
+            color: rgb(175, 64, 64);
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        input[type="date"] {
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            font-size: 1rem;
+        }
+
+        button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            background: #219150;
+        }
+
+        #custom-result {
+            margin-top: 15px;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Namaz Timings</h1>
+        <div class="date-sub" id="today-string"></div>
+        <div id="today-timings">Loading...</div>
+    </div>
+
+    <div class="container">
+        <h2>Check Custom Date</h2>
+        <div class="input-group">
+            <input type="date" id="date-picker">
+            <button onclick="handleCustomSearch()">View Timings</button>
+        </div>
+        <div id="custom-result"></div>
+    </div>
+
+    <script>
+        let namazData = null;
+
+        // Fetch the JSON file
+        async function loadData() {
+            try {
+                const response = await fetch('namaz_timings.json');
+                namazData = await response.json();
+                showToday();
+            } catch (err) {
+                document.getElementById('today-timings').innerHTML = "Error loading data. Ensure you are using a local server.";
+                console.error(err);
+            }
+        }
+
+        // Helper: Find entry closest to the selected day
+        function findEntry(monthIndex, day) {
+            const monthEntries = namazData[monthIndex];
+            if (!monthEntries) return null;
+
+            let bestMatch = monthEntries[0];
+            for (let entry of monthEntries) {
+                if (day >= entry.day) {
+                    bestMatch = entry;
+                }
+            }
+            return bestMatch;
+        }
+
+        // Helper: Generate HTML for the list
+        function generateHTML(data) {
+            const keys = ['subah', 'zuhar', 'asar', 'magrib', 'isha'];
+            return keys.map(k => `
+                <div class="time-row">
+                    <span class="label">${k.charAt(0).toUpperCase() + k.slice(1)}</span>
+                    <span class="time">${data[k]}</span>
+                </div>
+            `).join('');
+        }
+
+        function showToday() {
+            const now = new Date();
+            document.getElementById('today-string').innerText = now.toDateString();
+            const data = findEntry(now.getMonth(), now.getDate());
+            document.getElementById('today-timings').innerHTML = data ? generateHTML(data) : "No data for this month.";
+        }
+
+        function handleCustomSearch() {
+            const val = document.getElementById('date-picker').value;
+            if (!val) return;
+
+            const selected = new Date(val);
+            const data = findEntry(selected.getMonth(), selected.getDate());
+            const resultDiv = document.getElementById('custom-result');
+
+            resultDiv.innerHTML = data ?
+                `<p style="text-align:center; font-size:1rem; color:navy; font-weight:700;">Timings for ${selected.toDateString()}</p>` + generateHTML(data)
+                : "Data not found for this date.";
+        }
+
+        // Start
+        loadData();
+    </script>
+</body>
+
+</html>

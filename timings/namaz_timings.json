@@ -1,0 +1,181 @@
+{
+
+
+
+
+
+  "0": [
+    {"day": 1, "subah": "5.31", "zuhar": "12.37", "asar": "3.53", "magrib": "6.18", "isha": "7.35"},
+    {"day": 4, "subah": "5.33", "zuhar": "12.39", "asar": "3.55", "magrib": "6.20", "isha": "7.37"},
+    {"day": 7, "subah": "5.34", "zuhar": "12.40", "asar": "3.56", "magrib": "6.22", "isha": "7.38"},
+    {"day": 10, "subah": "5.35", "zuhar": "12.41", "asar": "3.57", "magrib": "6.23", "isha": "7.39"},
+    {"day": 13, "subah": "5.36", "zuhar": "12.42", "asar": "3.59", "magrib": "6.25", "isha": "7.40"},
+    {"day": 16, "subah": "5.37", "zuhar": "12.44", "asar": "4.01", "magrib": "6.27", "isha": "7.42"},
+    {"day": 19, "subah": "5.38", "zuhar": "12.45", "asar": "4.03", "magrib": "6.28", "isha": "7.44"},
+    {"day": 22, "subah": "5.38", "zuhar": "12.45", "asar": "4.03", "magrib": "6.29", "isha": "7.45"},
+    {"day": 25, "subah": "5.38", "zuhar": "12.46", "asar": "4.04", "magrib": "6.31", "isha": "7.46"},
+    {"day": 28, "subah": "5.39", "zuhar": "12.47", "asar": "4.06", "magrib": "6.33", "isha": "7.47"}
+  ],
+
+
+  "1": [
+    {"day": 1, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.34", "isha": "7.48"},
+    {"day": 4, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.35", "isha": "7.49"},
+    {"day": 7, "subah": "5.38", "zuhar": "12.48", "asar": "4.08", "magrib": "6.36", "isha": "7.49"},
+    {"day": 10, "subah": "5.38", "zuhar": "12.48", "asar": "4.08", "magrib": "6.37", "isha": "7.50"},
+    {"day": 13, "subah": "5.37", "zuhar": "12.48", "asar": "4.08", "magrib": "6.38", "isha": "7.50"},
+    {"day": 16, "subah": "5.36", "zuhar": "12.48", "asar": "4.09", "magrib": "6.39", "isha": "7.51"},
+    {"day": 19, "subah": "5.36", "zuhar": "12.48", "asar": "4.09", "magrib": "6.41", "isha": "7.52"},
+    {"day": 22, "subah": "5.35", "zuhar": "12.48", "asar": "4.09", "magrib": "6.42", "isha": "7.53"},
+    {"day": 25, "subah": "5.33", "zuhar": "12.47", "asar": "4.08", "magrib": "6.42", "isha": "7.53"},
+    {"day": 28, "subah": "5.32", "zuhar": "12.47", "asar": "4.08", "magrib": "6.43", "isha": "7.53"}
+  ],
+
+
+  "2": [
+    {"day": 1, "subah": "5.30", "zuhar": "12.46", "asar": "4.07", "magrib": "6.43", "isha": "7.53"},
+    {"day": 4, "subah": "5.29", "zuhar": "12.46", "asar": "4.07", "magrib": "6.44", "isha": "7.54"},
+    {"day": 7, "subah": "5.28", "zuhar": "12.45", "asar": "4.05", "magrib": "6.44", "isha": "7.54"},
+    {"day": 10, "subah": "5.26", "zuhar": "12.44", "asar": "4.04", "magrib": "6.44", "isha": "7.54"},
+    {"day": 13, "subah": "5.24", "zuhar": "12.43", "asar": "4.03", "magrib": "6.44", "isha": "7.54"},
+    {"day": 16, "subah": "5.23", "zuhar": "12.43", "asar": "4.02", "magrib": "6.45", "isha": "7.55"},
+    {"day": 19, "subah": "5.21", "zuhar": "12.42", "asar": "4.01", "magrib": "6.45", "isha": "7.55"},
+    {"day": 22, "subah": "5.19", "zuhar": "12.41", "asar": "3.59", "magrib": "6.45", "isha": "7.55"},
+    {"day": 25, "subah": "5.17", "zuhar": "12.40", "asar": "3.58", "magrib": "6.45", "isha": "7.55"},
+    {"day": 28, "subah": "5.15", "zuhar": "12.39", "asar": "3.56", "magrib": "6.45", "isha": "7.55"}
+  ],
+
+
+  "3": [
+    {"day": 1, "subah": "5.13", "zuhar": "12.38", "asar": "3.53", "magrib": "6.45", "isha": "7.56"},
+    {"day": 4, "subah": "5.10", "zuhar": "12.37", "asar": "3.52", "magrib": "6.45", "isha": "7.56"},
+    {"day": 7, "subah": "5.08", "zuhar": "12.36", "asar": "3.50", "magrib": "6.45", "isha": "7.56"},
+    {"day": 10, "subah": "5.06", "zuhar": "12.35", "asar": "3.48", "magrib": "6.45", "isha": "7.57"},
+    {"day": 13, "subah": "5.04", "zuhar": "12.35", "asar": "3.46", "magrib": "6.46", "isha": "7.58"},
+    {"day": 16, "subah": "5.01", "zuhar": "12.34", "asar": "3.43", "magrib": "6.47", "isha": "7.59"},
+    {"day": 19, "subah": "4.59", "zuhar": "12.33", "asar": "3.41", "magrib": "6.47", "isha": "7.59"},
+    {"day": 22, "subah": "4.57", "zuhar": "12.33", "asar": "3.39", "magrib": "6.47", "isha": "8.00"},
+    {"day": 25, "subah": "4.55", "zuhar": "12.32", "asar": "3.38", "magrib": "6.48", "isha": "8.01"},
+    {"day": 28, "subah": "4.53", "zuhar": "12.31", "asar": "3.39", "magrib": "6.48", "isha": "8.01"}
+  ],
+
+
+  "4": [
+    {"day": 1, "subah": "4.51", "zuhar": "12.31", "asar": "3.40", "magrib": "6.48", "isha": "8.02"},
+    {"day": 4, "subah": "4.50", "zuhar": "12.31", "asar": "3.41", "magrib": "6.49", "isha": "8.03"},
+    {"day": 7, "subah": "4.48", "zuhar": "12.30", "asar": "3.43", "magrib": "6.49", "isha": "8.04"},
+    {"day": 10, "subah": "4.46", "zuhar": "12.30", "asar": "3.45", "magrib": "6.50", "isha": "8.05"},
+    {"day": 13, "subah": "4.45", "zuhar": "12.30", "asar": "3.47", "magrib": "6.51", "isha": "8.07"},
+    {"day": 16, "subah": "4.43", "zuhar": "12.30", "asar": "3.48", "magrib": "6.51", "isha": "8.08"},
+    {"day": 19, "subah": "4.42", "zuhar": "12.30", "asar": "3.50", "magrib": "6.52", "isha": "8.09"},
+    {"day": 22, "subah": "4.41", "zuhar": "12.31", "asar": "3.52", "magrib": "6.54", "isha": "8.10"},
+    {"day": 25, "subah": "4.41", "zuhar": "12.31", "asar": "3.53", "magrib": "6.54", "isha": "8.12"},
+    {"day": 28, "subah": "4.40", "zuhar": "12.31", "asar": "3.54", "magrib": "6.55", "isha": "8.13"}
+  ],
+
+  "5": [
+    {"day": 1, "subah": "4.40", "zuhar": "12.32", "asar": "3.56", "magrib": "6.56", "isha": "8.15"},
+    {"day": 4, "subah": "4.39", "zuhar": "12.32", "asar": "3.56", "magrib": "6.57", "isha": "8.16"},
+    {"day": 7, "subah": "4.39", "zuhar": "12.33", "asar": "3.58", "magrib": "6.58", "isha": "8.17"},
+    {"day": 10, "subah": "4.39", "zuhar": "12.33", "asar": "3.58", "magrib": "6.59", "isha": "8.18"},
+    {"day": 13, "subah": "4.39", "zuhar": "12.34", "asar": "4.00", "magrib": "7.00", "isha": "8.19"},
+    {"day": 16, "subah": "4.39", "zuhar": "12.34", "asar": "4.00", "magrib": "7.00", "isha": "8.19"},
+    {"day": 19, "subah": "4.40", "zuhar": "12.35", "asar": "4.01", "magrib": "7.01", "isha": "8.20"},
+    {"day": 22, "subah": "4.41", "zuhar": "12.36", "asar": "4.02", "magrib": "7.02", "isha": "8.21"},
+    {"day": 25, "subah": "4.41", "zuhar": "12.36", "asar": "4.02", "magrib": "7.02", "isha": "8.21"},
+    {"day": 28, "subah": "4.42", "zuhar": "12.37", "asar": "4.03", "magrib": "7.03", "isha": "8.22"}
+  ],
+
+  "6": [
+    {"day": 1, "subah": "4.44", "zuhar": "12.38", "asar": "4.04", "magrib": "7.04", "isha": "8.23"},
+    {"day": 4, "subah": "4.44", "zuhar": "12.38", "asar": "4.04", "magrib": "7.04", "isha": "8.23"},
+    {"day": 7, "subah": "4.45", "zuhar": "12.39", "asar": "4.04", "magrib": "7.04", "isha": "8.23"},
+    {"day": 10, "subah": "4.46", "zuhar": "12.39", "asar": "4.04", "magrib": "7.04", "isha": "8.23"},
+    {"day": 13, "subah": "4.48", "zuhar": "12.40", "asar": "4.04", "magrib": "7.04", "isha": "8.23"},
+    {"day": 16, "subah": "4.49", "zuhar": "12.40", "asar": "4.03", "magrib": "7.04", "isha": "8.22"},
+    {"day": 19, "subah": "4.50", "zuhar": "12.40", "asar": "4.02", "magrib": "7.03", "isha": "8.21"},
+    {"day": 22, "subah": "4.51", "zuhar": "12.40", "asar": "4.01", "magrib": "7.03", "isha": "8.19"},
+    {"day": 25, "subah": "4.52", "zuhar": "12.40", "asar": "4.00", "magrib": "7.02", "isha": "8.19"},
+    {"day": 28, "subah": "4.53", "zuhar": "12.40", "asar": "3.58", "magrib": "7.01", "isha": "8.18"}
+  ],
+
+  "7": [
+    {"day": 1, "subah": "", "zuhar": "12.48", "asar": "4.07", "magrib": "6.34", "isha": "7.48"},
+    {"day": 4, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.35", "isha": "7.49"},
+    {"day": 7, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.35", "isha": "7.49"},
+    {"day": 10, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.35", "isha": "7.49"},
+    {"day": 13, "subah": "5.36", "zuhar": "12.42", "asar": "3.59", "magrib": "6.25", "isha": "7.40"},
+    {"day": 16, "subah": "5.36", "zuhar": "12.48", "asar": "4.09", "magrib": "6.39", "isha": "7.51"},
+    {"day": 19, "subah": "5.38", "zuhar": "12.45", "asar": "4.03", "magrib": "6.28", "isha": "7.44"},
+    {"day": 22, "subah": "5.38", "zuhar": "12.45", "asar": "4.03", "magrib": "6.29", "isha": "7.45"},
+    {"day": 25, "subah": "5.38", "zuhar": "12.46", "asar": "4.04", "magrib": "6.31", "isha": "7.46"},
+    {"day": 28, "subah": "5.32", "zuhar": "12.47", "asar": "4.08", "magrib": "6.43", "isha": "7.53"}
+  ],
+
+  "8": [
+    {"day": 1, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.34", "isha": "7.48"},
+    {"day": 4, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.35", "isha": "7.49"},
+    {"day": 7, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.35", "isha": "7.49"},
+    {"day": 10, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.35", "isha": "7.49"},
+    {"day": 13, "subah": "5.36", "zuhar": "12.42", "asar": "3.59", "magrib": "6.25", "isha": "7.40"},
+    {"day": 16, "subah": "5.36", "zuhar": "12.48", "asar": "4.09", "magrib": "6.39", "isha": "7.51"},
+    {"day": 19, "subah": "5.38", "zuhar": "12.45", "asar": "4.03", "magrib": "6.28", "isha": "7.44"},
+    {"day": 22, "subah": "5.38", "zuhar": "12.45", "asar": "4.03", "magrib": "6.29", "isha": "7.45"},
+    {"day": 25, "subah": "5.38", "zuhar": "12.46", "asar": "4.04", "magrib": "6.31", "isha": "7.46"},
+    {"day": 28, "subah": "5.32", "zuhar": "12.47", "asar": "4.08", "magrib": "6.43", "isha": "7.53"}
+  ],
+
+  "9": [
+    {"day": 1, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.34", "isha": "7.48"},
+    {"day": 4, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.35", "isha": "7.49"},
+    {"day": 7, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.35", "isha": "7.49"},
+    {"day": 10, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.35", "isha": "7.49"},
+    {"day": 13, "subah": "5.36", "zuhar": "12.42", "asar": "3.59", "magrib": "6.25", "isha": "7.40"},
+    {"day": 16, "subah": "5.36", "zuhar": "12.48", "asar": "4.09", "magrib": "6.39", "isha": "7.51"},
+    {"day": 19, "subah": "5.38", "zuhar": "12.45", "asar": "4.03", "magrib": "6.28", "isha": "7.44"},
+    {"day": 22, "subah": "5.38", "zuhar": "12.45", "asar": "4.03", "magrib": "6.29", "isha": "7.45"},
+    {"day": 25, "subah": "5.38", "zuhar": "12.46", "asar": "4.04", "magrib": "6.31", "isha": "7.46"},
+    {"day": 28, "subah": "5.32", "zuhar": "12.47", "asar": "4.08", "magrib": "6.43", "isha": "7.53"}
+  ],
+
+  "10": [
+    {"day": 1, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.34", "isha": "7.48"},
+    {"day": 4, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.35", "isha": "7.49"},
+    {"day": 7, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.35", "isha": "7.49"},
+    {"day": 10, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.35", "isha": "7.49"},
+    {"day": 13, "subah": "5.36", "zuhar": "12.42", "asar": "3.59", "magrib": "6.25", "isha": "7.40"},
+    {"day": 16, "subah": "5.36", "zuhar": "12.48", "asar": "4.09", "magrib": "6.39", "isha": "7.51"},
+    {"day": 19, "subah": "5.38", "zuhar": "12.45", "asar": "4.03", "magrib": "6.28", "isha": "7.44"},
+    {"day": 22, "subah": "5.38", "zuhar": "12.45", "asar": "4.03", "magrib": "6.29", "isha": "7.45"},
+    {"day": 25, "subah": "5.38", "zuhar": "12.46", "asar": "4.04", "magrib": "6.31", "isha": "7.46"},
+    {"day": 28, "subah": "5.32", "zuhar": "12.47", "asar": "4.08", "magrib": "6.43", "isha": "7.53"}
+  ],
+
+  "11": [
+    {"day": 1, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.34", "isha": "7.48"},
+    {"day": 4, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.35", "isha": "7.49"},
+    {"day": 7, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.35", "isha": "7.49"},
+    {"day": 10, "subah": "5.39", "zuhar": "12.48", "asar": "4.07", "magrib": "6.35", "isha": "7.49"},
+    {"day": 13, "subah": "5.36", "zuhar": "12.42", "asar": "3.59", "magrib": "6.25", "isha": "7.40"},
+    {"day": 16, "subah": "5.36", "zuhar": "12.48", "asar": "4.09", "magrib": "6.39", "isha": "7.51"},
+    {"day": 19, "subah": "5.38", "zuhar": "12.45", "asar": "4.03", "magrib": "6.28", "isha": "7.44"},
+    {"day": 22, "subah": "5.38", "zuhar": "12.45", "asar": "4.03", "magrib": "6.29", "isha": "7.45"},
+    {"day": 25, "subah": "5.38", "zuhar": "12.46", "asar": "4.04", "magrib": "6.31", "isha": "7.46"},
+    {"day": 28, "subah": "5.32", "zuhar": "12.47", "asar": "4.08", "magrib": "6.43", "isha": "7.53"}
+  ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
